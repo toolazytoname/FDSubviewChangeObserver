@@ -84,7 +84,9 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/toolazytoname/FDSubviewChangeObserver.git", :commit => "e539d3fef899933fe8bdf6301b626c498d94a7db" }
+  s.source       = { :git => "https://github.com/toolazytoname/FDSubviewChangeObserver.git", :tag => s.version.to_s }
+
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
